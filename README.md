@@ -8,7 +8,7 @@ Visitors can see who I am, what I'm about and what I've done.
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS
+**Tech used:** HTML, CSS, Javascrpit
 
 A basic webpage utilizing images, CSS styling and media qyerying. Farily straight forward and simple
 
