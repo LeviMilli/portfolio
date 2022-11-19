@@ -1,40 +1,32 @@
-Prologue by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Portfolio
+Personal webpage for my work and people to contact me.
+
+Visitors can see who I am, what I'm about and what I've done.
 
 
-This is Prologue, a simple, single page responsive site template. It features a
-clean, minimalistic design and a sticky sidebar with navigation-linked scrolling.
 
-Demo content images* are courtesy of the ridiculously talented Felicia Simion. Check out
-more of her amazing work over at deviantART:
+## How It's Made:
 
-http://ineedchemicalx.deviantart.com/
+**Tech used:** HTML, CSS, JavaScript, React, MongoDB, Express
 
-(* = Not included! Only meant for use with my own on-site demo, so please do NOT download
-and/or use any of Felicia's work without her explicit permission!)
+Full CRUD is ustilized in app. Each page is comprosed of react components and uses app context where it makes sense. Most states where set by context and a few function that were more globally used. The database was seeded using Mongo Atlas and node. Each page diplays object from database using arrays methods such as Map and Filter using react states. Auth was done by creating models of users and setting cookies and sessions. Personal recipes were done by references User and Recipe models.
 
-Demo banner images* courtesy of Unsplash, a radtastic collection of CC0 (public domain)
-images you can use for pretty much whatever.
-
-(* = Not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
+## Optimizations
+Search bar using Filter and a deep clone to be able to iterate through the list of recipes for easier access to favorites. Google Login with gapi auth to make everything feel a little more comfortable and ease of use.
 
 
-Credits:
 
-	Demo Images:
-		Felicia Simion (ineedchemicalx.deviantart.com)
-		Unsplash (unsplash.com)
+## Lessons Learned:
 
-	Icons:
-		Font Awesome (fontawesome.io)
+Auth is really a straight forward process. Once everything is set up correctly, the app can be used and redirected accordingly. A good user flow is important to avoid confusion. The app should be simple, yet useful and efficient. 
 
-	Other
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+## Other Amazing Repos
+Take a look at these couple repos that I have in my portfolio:
+
+**CryptoTracker Crypto wallet:** https://github.com/LeviMilli/Crypto-Wallet-project
+
+**MewTwo's Mad Dash Canvas HTML game:** https://github.com/LeviMilli/mewtwo-game
+
+**The Notorius Codewars:** https://github.com/LeviMilli/Codewars
+
+
