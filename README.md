@@ -1,7 +1,7 @@
 # Portfolio
 Personal webpage for my work and people to contact me.
 
-Visitors can see who I am, what I'm about and what I've done.
+Visitors can see who I am, what I'm about and what I've done. Check it out here https://levi-millikin.netlify.app
 
 <img height="400px" src="https://user-images.githubusercontent.com/107660704/202875239-78ec3095-4a14-4f18-9755-2ac43b9b1b95.JPG"></img>
 
